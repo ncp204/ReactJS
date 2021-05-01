@@ -22,6 +22,7 @@ function App() {
         {/* <Car /> */}
         <Xe color='red' value='Toi la chiec xe mau do' />
         <Xe color='blue' value='Toi la chiec xe mau xanh' />
+        <Xe color='orange' value='Toi la chiec xe mau cam' />
       </header>
     </div>
   );
