@@ -1,8 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+// import Car from './Car';
+import Xe from './Xe';
 
 function App() {
-  return (
+  const html =(
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -17,9 +19,13 @@ function App() {
         >
           Nguyễn Công Phúc
         </a>
+        {/* <Car /> */}
+        <Xe color='red' value='Toi la chiec xe mau do' />
+        <Xe color='blue' value='Toi la chiec xe mau xanh' />
       </header>
     </div>
   );
+  return html; 
 }
 
 export default App;
