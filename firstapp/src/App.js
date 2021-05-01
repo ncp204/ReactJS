@@ -20,9 +20,7 @@ function App() {
           Nguyễn Công Phúc
         </a>
         {/* <Car /> */}
-        <Xe color='red' value='Toi la chiec xe mau do' />
-        <Xe color='blue' value='Toi la chiec xe mau xanh' />
-        <Xe color='orange' value='Toi la chiec xe mau cam' />
+        <Xe color='red' value='Toi la chiec xe mau do'/>
       </header>
     </div>
   );
