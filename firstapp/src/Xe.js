@@ -33,11 +33,11 @@ class Xe extends React.Component {
 
     render() {
         // console.log('Xe class: ', this.props.color);
-        const shoot = (
-            <h3 onClick={this.shoot}
-            style={{ color: this.state.color, cursor: 'pointer' }} >
-            {this.state.value}</h3>
-        )
+        // const shoot = (
+        //     <h3 onClick={this.shoot}
+        //     style={{ color: this.state.color, cursor: 'pointer' }} >
+        //     {this.state.value}</h3>
+        // )
         
         const shoot2 = (
             <h2 onClick={this.shoot2.bind(this,'Goal A')}
@@ -45,11 +45,11 @@ class Xe extends React.Component {
             {this.state.value}</h2>
         )
 
-        const shoot3 = (
-            <h2 onClick={() => this.shoot2("Goal")}
-            style={{ color: this.state.color, cursor: 'pointer' }} >
-            {this.state.value}</h2>
-        )
+        // const shoot3 = (
+        //     <h2 onClick={() => this.shoot2("Goal")}
+        //     style={{ color: this.state.color, cursor: 'pointer' }} >
+        //     {this.state.value}</h2>
+        // )
         console.log('render');
         return shoot2;
     }
