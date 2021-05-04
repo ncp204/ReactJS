@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 // import Car from './Car';
 import Xe from './Xe';
 import MyForm from './MyForm';
